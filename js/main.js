@@ -26,3 +26,56 @@ console.log('Значение i:', i);
 console.log('Префиксный декремент:', --i);
 console.log('Постфиксный декремент:', i--);
 console.log('Значение i:', i);
+
+// #4
+var myTest = 20;
+
+myTest += myNum;
+console.log('+=', myTest);
+
+myTest -= 10;
+console.log('-=', myTest);
+
+myTest *= 2;
+console.log('*=', myTest);
+
+myTest /= myNum;
+console.log('/=', myTest);
+
+myTest %= 3;
+console.log('%=', myTest);
+
+// #5
+var myPi = Math.PI; 
+console.log('myPi:', myPi);
+
+var myRound = Math.round(89.279); 
+console.log('myRound:', myRound);
+
+var myRandom = Math.random() * 10; 
+console.log('myRandom:', myRandom);
+
+var myPow = Math.pow(3, 5); 
+console.log('myPow:', myPow);
+
+// #6
+var strObj = {str: 'Мама мыла раму, рама мыла маму'};
+
+strObj.length = strObj.str.length;
+console.log('strObj = ', strObj);
+
+// #7
+var isRamaPos = strObj.str.indexOf('рама');
+
+console.log('isRamaPos:', isRamaPos);
+
+// #8
+var strReplace = strObj.str.replace('мыла', 'моет');
+
+strReplace = strReplace.replace('рама', 'Рама');
+strReplace = strReplace.replace('мыла', 'держит');
+console.log('strReplace:', strReplace);
+
+// #9
+console.log(myStr.toUpperCase());
+console.log('Любая Строка'.toLowerCase());
